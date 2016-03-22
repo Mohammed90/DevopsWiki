@@ -7,10 +7,15 @@ A wiki of Guides, Scripts, Tutorials related to devops
 ## Table of Contents
 
 
-  1. [Vim Cheat Sheet](#vim-cheat-sheet)
-  1. [Bash Guides and Scripts](#bash-guides-and-scripts)
-  1. [Python Guides and Scripts](#python-guides-and-scripts)
+  1. [Vim](#vim)
+  1. [Tmux](#tmux)
+  1. [Bash](#bash-guides-and-scripts)
+  1. [Python](#python-guides-and-scripts)
   1. [Awk Guides](#awk-guides)
+  1. [Sed](#sed)
+  1. [Perl](#perl)
+  1. [C](#c)
+  1. [Javascript](#javascript)
   1. [Automation Guides](#automation-guides)
   1. [Git](#git)
   1. [Troubleshooting](#troubleshooting)
@@ -18,20 +23,41 @@ A wiki of Guides, Scripts, Tutorials related to devops
   1. [Email Server Configuration](#email-server-configuration)
   1. [Firewall and Monitoring](#firewall-and-monitoring)
   1. [Miscellaneous](#miscellaneous)
-  1. [C programming](#c-programming)
   1. [Data Structures](#data-structures)
   1. [Code Editors](#code-editors)
   1. [Video Tutorials](#video-tutorials)
   1. [Continuous Integration](#continuous-integration)
   1. [Docker](#docker)
-  
+  1. [Devops Interview Questions](#devops-interview-questions)
 
+## Vim
 
-##Vim Cheat Sheet
+Vim Cheat Sheet
 
 http://michael.peopleofhonoronly.com/vim/
 
+Vim Regular Expressions 101
+
+http://vimregex.com/
+
+## Tmux
+
+Tmux is a "terminal multiplexer", it enables a number of terminals (or windows)
+to be accessed and controlled from a single terminal. It can be installed via sudo apt-get install tmux.
+
+A Quick and Easy Guide to Tmux
+
+http://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/
+
+Tmux Shortcuts and Cheat Sheet
+
+https://gist.github.com/MohamedAlaa/2961058
+
 ## Bash Guides and Scripts
+
+Useful bash one-liners
+
+https://github.com/stephenturner/oneliners
 
 Real time file syncing daemon with inotify tools
 
@@ -46,10 +72,6 @@ http://techarena51.com/index.php/how-to-create-an-init-script-on-centos-6/
 Building an RPM on CentOS
 
 http://techarena51.com/index.php/build-rpm-without-breaking-head/
-
-Using BUP a git based software to backup files
-
-http://techarena51.com/index.php/using-git-backup-website-files-on-linux/
 
 Bash Scripting Tutorials for Beginners
 
@@ -69,6 +91,10 @@ Bash process substitution
 
 http://redpill-linpro.com/sysadvent/2015/12/12/bash-process-substitution.html
 
+Bash Indepth Tutorial
+
+http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html
+
 **[Back to top](#table-of-contents)**
 
 ## Python Guides and Scripts
@@ -76,6 +102,14 @@ http://redpill-linpro.com/sysadvent/2015/12/12/bash-process-substitution.html
 Python 3 String Encoding and Formatting
 
 http://www.diveintopython3.net/strings.html
+
+Python Local and Global Scopes
+
+https://automatetheboringstuff.com/chapter3/
+
+Python Regex for beginners
+
+https://developers.google.com/edu/python/regular-expressions
 
 Building system monitoring apps in Python with Flask
 
@@ -91,7 +125,7 @@ http://techarena51.com/index.php/flask-sqlalchemy-tutorial/
 
 http://techarena51.com/index.php/flask-sqlalchemy-postgresql-tutorial/
 
-Token based Auth
+Token based Authentication with Pyjwt
 
 http://techarena51.com/index.php/json-web-token-authentication-with-flask-and-angularjs/
 
@@ -107,15 +141,33 @@ Automating web testing with Selenium
 
 http://techarena51.com/index.php/install-selenium-linux-automate-web-tests/
 
-Continously deploying your Flask/Python code  to your Linux production server with GitHub webhooks
+Flask Github Webhook Handler
 
 http://techarena51.com/index.php/flask-github-webhook-handler/
+
+Flask Web Sockets
+
+http://blog.miguelgrinberg.com/post/easy-websockets-with-flask-and-gevent
+
+Sending Email with Python
+
+https://pythonhosted.org/Flask-Mail/
 
 Understanding Threading and the Global Interpreter Lock
 
 http://jessenoller.com/blog/2009/02/01/python-threads-and-the-global-interpreter-lock
 
+Packaging and Distributing Python Projects
 
+http://python-packaging-user-guide.readthedocs.org/en/latest/distributing/
+
+Serving Python with Uwsgi 
+
+http://uwsgi-docs.readthedocs.org/en/latest/WSGIquickstart.html
+
+Python Indepth Tutorial
+
+https://automatetheboringstuff.com/
 
 **[Back to top](#table-of-contents)**
 
@@ -128,6 +180,74 @@ http://www.grymoire.com/Unix/Awk.html
 Text Processing examples with Awk
 
 http://techarena51.com/index.php/advance-text-processing-examples-awk/
+
+**[Back to top](#table-of-contents)**
+
+## Sed
+
+An introduction and Tutorial
+
+http://www.grymoire.com/Unix/Sed.html
+
+**[Back to top](#table-of-contents)**
+
+## Perl
+
+Perl Regex CheatSheet
+
+http://www.erudil.com/preqr.pdf
+
+http://www.rexegg.com/regex-quickstart.html
+
+Indepth Tutorial
+
+http://perlmaven.com/perl-tutorial
+
+**[Back to top](#table-of-contents)**
+
+## C
+
+File I/O
+
+http://gribblelab.org/CBootcamp/10_Input_and_Output.html
+
+C Programming Boot Camp
+
+http://gribblelab.org/CBootcamp/
+
+ Beej's Guide to Network Programming
+
+ https://beej.us/guide/bgnet/
+
+**[Back to top](#table-of-contents)**
+
+## Javascript
+
+[Quick Getting start with JS](http://www.freecodecamp.com/map)
+
+[JS Concepts ( Closures, Falsy, Functions, Immutable, Loops, Scope, Ternary, Truthy, Arrays)](https://github.com/freecodecamp/freecodecamp/wiki/js-closures)
+
+[Making API calls with ngResource] (https://docs.angularjs.org/api/ngResource)
+
+[Using UI-Router for Client side routing](https://github.com/angular-ui/ui-router/wiki/URL-Routing)
+
+[Token Based Authentication with Satellizer](http://techarena51.com/index.php/json-web-token-authentication-with-flask-and-angularjs/)
+
+[21 Javascript Answers on Quora Every Developer Must Read](https://josecasanova.com/blog/21-javascript-answers-on-quora-every-developer-must-read/)
+
+[Visualizing data with D3.js](http://alignedleft.com/tutorials/d3)
+
+[Websockets with Socket.io](http://socket.io/get-started/)
+
+[JS indepth Tutorial and Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)
+
+[Server side JS with Nodejs](https://nodejs.org/dist/latest-v4.x/docs/api/)
+
+[Cross Platform Desktop apps with Electron](http://electron.atom.io/#get-started)
+
+[End to End Testing with Protractor](https://angular.github.io/protractor/#/tutorial)
+
+[JS resources](https://github.com/freecodecamp/freecodecamp/wiki/js-resources)
 
 **[Back to top](#table-of-contents)**
 
@@ -152,13 +272,23 @@ Using StackStorm, an Opensource platform for integration and automation across s
 
 https://docs.stackstorm.com/overview.html#st2-overview
 
+
+Configure, build, repeat. – using the 3bot platform.
+
+[Der maschinelle Kollege](https://www.arteria.ch/de/blog/3bot-der-maschinelle-kollege/), an article about using 3bot in German. 
+
+
 **[Back to top](#table-of-contents)**
 
 ##Git
 
-Getting started
+Git Quick Start
 
 http://rogerdudler.github.io/git-guide/
+
+Git Indepth Tutorial
+
+http://www.vogella.com/tutorials/Git/article.html#gitdefintion_tools1
 
 **[Back to top](#table-of-contents)**
 
@@ -236,10 +366,6 @@ Linux System Calls
 
 http://www.digilife.be/quickreferences/qrc/linux%20system%20call%20quick%20reference.pdf
 
-Getting Started with Git
-
-http://www.vogella.com/tutorials/Git/article.html#gitdefintion_tools1
-
 Linux one second boot
 
 http://events.linuxfoundation.org/sites/events/files/slides/praesentation.pdf
@@ -266,24 +392,6 @@ http://12factor.net/
 
 **[Back to top](#table-of-contents)**
 
-## C programming
-
-File I/O
-
-http://gribblelab.org/CBootcamp/10_Input_and_Output.html
-
-C Programming Boot Camp
-
-http://gribblelab.org/CBootcamp/
-
- Beej's Guide to Network Programming
-
- https://beej.us/guide/bgnet/
-
-**[Back to top](#table-of-contents)**
-
-
-
 ## Data Structures
 
 Stack vs Heap
@@ -292,9 +400,15 @@ http://gribblelab.org/CBootcamp/7_Memory_Stack_vs_Heap.html
 
 **[Back to top](#table-of-contents)**
 
-
 ## Code Editors
 
+Vim
+
+http://www.vim.org/about.php
+
+Atom
+
+https://atom.io/docs/v0.196.0/getting-started-why-atom
 
 Brackets
 
@@ -303,14 +417,6 @@ http://brackets.io/
 Sublime Text
 
 http://www.sublimetext.com/
-
-Atom
-
-https://atom.io/docs/v0.196.0/getting-started-why-atom
-
-Vim
-
-http://www.vim.org/about.php
 
 GNU Emacs
 
@@ -336,13 +442,11 @@ https://www.youtube.com/channel/UCvA_wgsX6eFAOXI8Rbg_WiQ/feed
 
 ## Continuous Integration
 
-Travis
+[Deploying Code at Netflix]( http://techblog.netflix.com/2016/03/how-we-build-code-at-netflix.html)
 
-https://docs.travis-ci.com/user/languages/python
+[Travis-CI Tutorial] (https://docs.travis-ci.com/user/languages/python)
 
-Jenkins
-
-http://www.vogella.com/articles/Jenkins/article.html
+[Jenkins Tutorial](http://www.vogella.com/articles/Jenkins/article.html)
 
 **[Back to top](#table-of-contents)**
 
@@ -352,9 +456,15 @@ Docker
 
 http://blog.flux7.com/topic/docker
 
+**[Back to top](#table-of-contents)**
 
+## Devops Interview Questions
+
+https://github.com/Leo-G/DevopsWiki/wiki/Devops-Interview-Questions
 
 **[Back to top](#table-of-contents)**
+
+
 
 
 
